@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Abril+Fatface&family=Anton&family=Carter+One&family=Croissant+One&family=IBM+Plex+Sans:wght@700&family=Kablammo&family=Kaushan+Script&family=Lilita+One&family=Lora:wght@500&family=Luckiest+Guy&family=Yeseva+One&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;   
+}
+
+body{
+    color: white;
+    background-size: cover;
+    background-image: url('../bgimg1.jpg');
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: hidden;
+}
+.heading h1{
+    color:#ffffff;
+    font-size: 48px;
+    font-weight:900;
+    letter-spacing: 1px;
+    padding-top:2rem;
+    margin: 1rem;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+.search-bar{
+    margin: 1rem 0;
+    width:400px;
+    height:40px;
+    border:none;
+    outline:none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+.container{
+    width: 80%;
+    margin:25px auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+    overflow-x: hidden;
+}
+.card{
+    width: 194px;
+    border-radius: 1rem;
+    background-size: contain;
+    background-image: url('https://media.istockphoto.com/id/965543798/vector/pattern.jpg?s=612x612&w=0&k=20&c=1O5BcGf7Sn-55qU6JrMLofDFcJQohbTfN858OLzbnUg=');
+    padding: 5px;
+    margin-left: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.card h3{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    font-family:'Carter One','cursive';
+}
+.content{
+    overflow-x: hidden;
+}
+.content img{
+    border: 2px solid;
+    padding: 10px;
+    margin-top: 10px;
+    width: 35%;
+    height: 30%;
+    margin-bottom: 10px;
+    size: contain;
+    transform: translate(150%,10%);
+}  
+.content .inner-content{
+    background-color: rgba(255,255,255,0.8);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,05);
+}
+.recipe-details{
+    width: 70%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ingredients,.instructions{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+}
+
+.video{
+    width: 50%;
+    margin: 3rem auto;
+}
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}
+.numBox {
+    width: 50px;
+    height: 40px;
+    background-color: #ffffc6d1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 0 5px 0 5px;
+}
+.instructions{
+    font-size: 1rem;
+    margin-top: 60px
+}
+.ih{
+    text-shadow: .1em .1em 0 hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.tit{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(105, 7, 161);
+    text-shadow: .1em .1em 0 hsl(300, 100%, 98%);
+    font-family:'Carter One', cursive;
+}
+
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #f28484;
+    }
+    to {
+      text-shadow: 0 0 30px #eded73, 0 0 10px #000000;
+    }
+  }
+  .foot{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+
+  
